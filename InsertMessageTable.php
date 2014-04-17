@@ -1,5 +1,4 @@
 
-
 <?php  
 session_start();
 
@@ -8,7 +7,7 @@ session_start();
 //I designed the second table because when I am sending one Email to 1000 student there is no reason to save all data of the emails 1000 times 
 //so we can save all data one time and in sentmail table have one column as emailaddresses and ID for that 1000 students.
 
-  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=inampass1")
+  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=*******")
 		or die('Could not connect: ' . pg_last_error());;
 		if (!$conn)
 		{
