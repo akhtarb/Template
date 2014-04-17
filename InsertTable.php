@@ -1,10 +1,9 @@
 
-
 <?php  
 //InsertTable class get the content of the text files that user typed in and insert them as the value of the keys into the data base,
 session_start();
 
-  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=inampass1")
+  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=****")
 		or die('Could not connect: ' . pg_last_error());;
 		if (!$conn)
 		{
