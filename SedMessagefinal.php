@@ -21,7 +21,7 @@ session_start();
 // Create the Transport
 $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
   ->setUsername('bahar.ah13@gmail.com')
-  ->setPassword('inampass1')
+  ->setPassword('****')
   ;
   //echo "ppp2";
 // Create the Mailer using your created Transport
