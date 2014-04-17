@@ -5,7 +5,7 @@ session_start();
 
 print_r( $json );
 
-  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=inampass1")
+  $conn = pg_pconnect("host=localhost dbname=Message user=postgres password=****")
 		or die('Could not connect: ' . pg_last_error());;
 		if (!$conn)
 		{
